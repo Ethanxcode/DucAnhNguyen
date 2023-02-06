@@ -136,13 +136,6 @@
 	.subChildContactContent {
 		flex-direction: column;
 	}
-	.subFooterContent h4 {
-		font-size: 18px !important ;
-	}
-	.subFooterContent ul li a,
-	p {
-		font-size: 14px !important;
-	}
 	.subChildContactContent button {
 		margin: 16px 0 !important;
 	}
@@ -158,30 +151,6 @@
 	.circleLogo {
 		height: 80px !important;
 		width: 80px !important;
-	}
-	.inter-black-eerie-black-18px {
-		font-size: 14px !important;
-	}
-	.inter-medium-tundora-16px {
-		font-size: 12px !important;
-	}
-	.heroTitle {
-		font-size: 64px !important;
-	}
-	.inter-black-iron-16px {
-		font-size: 14px !important;
-	}
-	.inter-black-almod-16px {
-		font-size: 12px !important;
-	}
-	.inter-black-eerie-black-16px {
-		font-size: 12px !important;
-	}
-	.inter-medium-black-24px {
-		font-size: 18px !important;
-	}
-	.inter-black-eerie-black-24px {
-		font-size: 20px !important;
 	}
 }
 

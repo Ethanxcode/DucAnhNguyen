@@ -136,13 +136,6 @@
 	.subChildContactContent {
 		flex-direction: column;
 	}
-	.subFooterContent h4 {
-		font-size: 18px !important ;
-	}
-	.subFooterContent ul li a,
-	p {
-		font-size: 14px !important;
-	}
 	.subChildContactContent button {
 		margin: 16px 0 !important;
 	}

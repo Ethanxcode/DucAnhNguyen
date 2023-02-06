@@ -122,67 +122,6 @@
 	.Aboutcontent img {
 		padding: 24px 0;
 	}
-	#myCanvas {
-		width: 120px;
-		height: 120px;
-	}
-	.circleCanvas span {
-		font-size: 14px !important;
-		left: 3% !important;
-	}
-	.circleCanvas {
-		top: 35% !important;
-	}
-	.subChildContactContent {
-		flex-direction: column;
-	}
-	.subFooterContent h4 {
-		font-size: 18px !important ;
-	}
-	.subFooterContent ul li a,
-	p {
-		font-size: 14px !important;
-	}
-	.subChildContactContent button {
-		margin: 16px 0 !important;
-	}
-	.fullFilshortBtn {
-		display: none !important;
-	}
-	.footerContent .subFooterContent {
-		padding: 24px 0;
-	}
-	.bigNameTitle {
-		font-size: var(--font-size-xxl) !important;
-	}
-	.circleLogo {
-		height: 80px !important;
-		width: 80px !important;
-	}
-	.inter-black-eerie-black-18px {
-		font-size: 14px !important;
-	}
-	.inter-medium-tundora-16px {
-		font-size: 12px !important;
-	}
-	.heroTitle {
-		font-size: 64px !important;
-	}
-	.inter-black-iron-16px {
-		font-size: 14px !important;
-	}
-	.inter-black-almod-16px {
-		font-size: 12px !important;
-	}
-	.inter-black-eerie-black-16px {
-		font-size: 12px !important;
-	}
-	.inter-medium-black-24px {
-		font-size: 18px !important;
-	}
-	.inter-black-eerie-black-24px {
-		font-size: 20px !important;
-	}
 }
 
 .row::after {
@@ -1034,11 +973,12 @@ li {
 .circleCanvas span {
 	color: #fff;
 	z-index: 2;
-	position: absolute;
+	position: relative;
 	left: 12%;
 	bottom: 45%;
 	width: 100%;
-	padding: 0 16px;
+	text-align: center;
+	/* padding: 0 16px; */
 	/* color: var(--black); */
 	font-family: var(--font-family-inter);
 	font-size: 18px;
@@ -1064,7 +1004,8 @@ li {
 	background-color: var(--almod);
 	height: 860px;
 	/* position: relative; */
-
+	border-top: 1px solid var(--tundora-2);
+	border-bottom: 1px solid var(--tundora-2);
 	width: 100%;
 }
 
@@ -1128,10 +1069,10 @@ input:focus-visible {
 }
 
 .FooterSection {
-	position: absolute;
+	position: relative;
 	margin-top: 0px;
 	background-color: var(--mirage);
-	padding-bottom: 48px;
+	height: 720px;
 	/* position: relative; */
 	border-top: 1px solid var(--tundora-2);
 	border-bottom: 1px solid var(--tundora-2);
@@ -1140,10 +1081,10 @@ input:focus-visible {
 
 .footerContent {
 	display: flex;
+	justify-content: space-between;
 	/* position: relative; */
-	padding-bottom: 16px;
-	margin-top: 64px;
 	justify-content: center;
+	margin-top: 80px;
 	/* height: 1080px; */
 }
 
@@ -1155,12 +1096,7 @@ input:focus-visible {
 	font-style: normal;
 }
 
-.subFooterContent ul li a:hover {
-	cursor: pointer;
-	color: var(--pablo);
-}
-.subFooterContent ul li a,
-p {
+.subFooterContent ul li {
 	color: var(--iron);
 	font-family: var(--font-family-inter);
 	font-size: var(--font-size-xxxs);
@@ -1202,7 +1138,7 @@ p {
 }
 
 .footerIcons li a:hover {
-	color: var(--pablo);
+	color: var(--almod);
 }
 
 .footerCopyright {
