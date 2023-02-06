@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+}
+
+:root {
+	--black: rgba(0, 0, 0, 1);
+	--mirage: rgba(23, 28, 48, 1);
+	--eerie-black: rgba(24, 29, 49, 1);
+	--tundora-2: rgba(67, 66, 66, 0.8);
+	--tundora: rgba(67, 66, 66, 0.8);
+	--pablo: rgba(120, 113, 108, 1);
+	--iron: rgba(216, 216, 216, 1);
+	--almod: rgba(230, 221, 196, 1);
+
+	--font-size-xs: 22px;
+	--font-size-s: 24px;
+	--font-size-m: 28px;
+	--font-size-l: 32px;
+	--font-size-xl: 36px;
+	--font-size-xxl: 48px;
+	--font-size-xxxl: 128px;
+
+	--font-family-inter: 'Inter';
+	--font-family-roboto: 'Roboto';
+}
+
+/* Classes */
+
+.inter-black-eerie-black-24px {
+	color: var(--eerie-black);
+	font-family: var(--font-family-inter);
+	font-size: var(--font-size-s);
+	font-weight: 900;
+	font-style: normal;
+}
+
+.inter-medium-tundora-28px {
+	color: var(--tundora);
+	font-family: var(--font-family-roboto);
+	font-size: var(--font-size-m);
+	font-weight: 500;
+	font-style: normal;
+}
+
+.inter-medium-black-32px {
+	color: var(--black);
+	font-family: var(--font-family-inter);
+	font-size: var(--font-size-l);
+	font-weight: 500;
+	font-style: normal;
+}
+
+.inter-medium-black-32px {
+	color: var(--black);
+	font-family: var(--font-family-inter);
+	font-size: var(--font-size-l);
+	font-weight: 500;
+	font-style: normal;
+}
