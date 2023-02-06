@@ -70,12 +70,4 @@ function showSlides(n) {
 	timeout = setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 
-// const burgerMenu = document.querySelector('.burgerMenu');
-
-// burgerMenu.addEventListener('mouseover', (e) => {
-// 	if (burgerMenu.style.display === 'none') {
-// 		burgerMenu.style.display = 'block';
-// 	} else {
-// 		burgerMenu.style.display = 'none';
-// 	}
-// });
+const burgerMenu = document.querySelector('.burgerMenu');
