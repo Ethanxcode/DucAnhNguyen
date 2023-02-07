@@ -409,5 +409,4 @@ subHeaderMenu > ul > li > a {
 .HeaderSectionMenu {
 	align-items: center;
 	display: flex;
-	justify-content: space-between;
 }
